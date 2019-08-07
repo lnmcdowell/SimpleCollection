@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         //uncomment one line or the other just below in order to pick simple collectionview(CV) or generic UIView addapted (expcv)
-      // let navController = UINavigationController(rootViewController: cv(collectionViewLayout: UICollectionViewLayout()))
-        let navController = UINavigationController(rootViewController: expcv())
+       let navController = UINavigationController(rootViewController: cv(collectionViewLayout: UICollectionViewLayout()))
+      //  let navController = UINavigationController(rootViewController: expcv())
         window = UIWindow()
         window?.makeKeyAndVisible()
         window?.rootViewController = navController
